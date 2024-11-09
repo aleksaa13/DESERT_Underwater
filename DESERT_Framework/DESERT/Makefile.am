@@ -57,6 +57,8 @@ SUBDIRS = m4 \
     data_link/uwsr \
     data_link/uw-t-lohi \
     data_link/uwUFetch \
+    data_link/uw-aloha-q \
+    data_link/uw-aloha-q-sync \
     data_link/uw-csma-aloha-trigger \
     data_link/uwtdma \
     data_link/uwtdma-frame \
@@ -76,15 +78,12 @@ SUBDIRS = m4 \
     physical/uwofdmphy \
     physical/uwahoi_phy \
     physical/uwahoimodem \
-    physical/uwmodamodem \
     physical/uwoptical_phy \
     physical/uwopticalbeampattern \
     physical/uw-al \
     physical/uw-al/packer_common \
     physical/uw-al/packer_mac \
     physical/uwphy_clmsgs \
-    physical/uwem_phy \
-    physical/uwem_antenna \
     utility/msg-display \
     mobility/uwdriftposition \
     mobility/uwgmposition \
@@ -93,9 +92,7 @@ SUBDIRS = m4 \
     interference/uwinterference \
     interference/uwinterferenceofdm \
     propagation/uwoptical_propagation \
-    propagation/uwem_propagation \
     channel/uwoptical_channel \
-    channel/uwem_channel \
     statistics/uwstats_utilities \
     ranging/uwranging_tokenbus \
     ranging/uwranging_tdma
